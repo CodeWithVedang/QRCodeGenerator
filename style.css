@@ -1,0 +1,54 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 1s ease; /* Fade-in animation for the entire page */
+  display: flex;
+    justify-content: center; /* Align container horizontally at center */
+    align-items: center; /* Align container vertically at center */
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333; /* Darker container background color */
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 1s ease; /* Fade-in animation for the container */
+}
+
+input[type="text"], button {
+    margin: 10px;
+    padding: 8px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #121212; /* Darker input/button background color */
+    color: #00ffff; /* Light text color */
+    animation: fadeIn 3s ease; /* Fade-in animation for input and button */
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #01147d; /* Darker hover background color */
+}
+
+#output {
+    margin-top: 20px;
+    animation: fadeIn 3s ease; /* Fade-in animation for output */
+}
