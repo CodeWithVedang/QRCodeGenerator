@@ -6,7 +6,22 @@
         opacity: 1;
     }
 }
+#downloadBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #00ffff; /* Light background color */
+    color: #121212; /* Dark text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: fadeIn 3s ease; /* Fade-in animation for the button */
+}
 
+#downloadBtn:hover {
+    background-color: #01147d; /* Darker hover background color */
+    color: #fff; /* Light text color on hover */
+}
 body {
     background-color: #222; /* Dark background color */
     color: #fff; /* Light text color */
